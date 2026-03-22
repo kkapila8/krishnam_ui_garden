@@ -1,27 +1,27 @@
-import Text from "./Text";
+import Text from './Text';
 
 export default {
-  title: "Components/Text",
+  title: 'Components/Text',
   component: Text,
   argTypes: {
-    content: { control: "text" },
-    color: { control: "color" },
-    disabled: { control: "boolean" },
+    content: { control: 'text' },
+    color: { control: 'color' },
+    disabled: { control: 'boolean' },
   },
 };
 
 export const Default = {
   args: {
-    content: "This is a text",
-    color: "black",
+    content: 'This is a text',
+    color: 'black',
     disabled: false,
   },
 };
 
 export const Disabled = {
   args: {
-    content: "Disabled text",
-    color: "black",
+    content: 'Disabled text',
+    color: 'black',
     disabled: true,
   },
 };
