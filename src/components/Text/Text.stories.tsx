@@ -1,6 +1,6 @@
 import Text from './Text';
 
-export default {
+const meta = {
   title: 'Components/Text',
   component: Text,
   argTypes: {
@@ -9,6 +9,8 @@ export default {
     disabled: { control: 'boolean' },
   },
 };
+
+export default meta;
 
 export const Default = {
   args: {

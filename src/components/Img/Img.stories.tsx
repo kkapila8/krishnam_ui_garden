@@ -1,7 +1,7 @@
 import Img from './Img';
 import MyPhoto from '../../assets/myphoto.jpg'; // your image file
 
-export default {
+const meta = {
   title: 'Components/Img',
   component: Img,
   argTypes: {
@@ -12,6 +12,8 @@ export default {
     disabled: { control: 'boolean' },
   },
 };
+
+export default meta;
 
 export const MyPicture = {
   args: {

@@ -1,6 +1,6 @@
 import Card from './Card';
 
-export default {
+const meta = {
   title: 'Components/Card',
   component: Card,
   argTypes: {
@@ -10,6 +10,8 @@ export default {
     disabled: { control: 'boolean' },
   },
 };
+
+export default meta;
 
 export const Default = {
   args: {

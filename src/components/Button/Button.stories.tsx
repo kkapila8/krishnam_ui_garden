@@ -1,6 +1,6 @@
 import Button from './Button';
 
-export default {
+const meta = {
   title: 'Components/Button',
   component: Button,
   argTypes: {
@@ -9,6 +9,8 @@ export default {
     disabled: { control: 'boolean' },
   },
 };
+
+export default meta;
 
 export const Default = {
   args: {

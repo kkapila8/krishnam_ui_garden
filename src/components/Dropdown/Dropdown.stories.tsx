@@ -1,6 +1,6 @@
 import Dropdown from './Dropdown';
 
-export default {
+const meta = {
   title: 'Components/Dropdown',
   component: Dropdown,
   argTypes: {
@@ -9,6 +9,8 @@ export default {
     disabled: { control: 'boolean' },
   },
 };
+
+export default meta;
 
 export const Default = {
   args: {

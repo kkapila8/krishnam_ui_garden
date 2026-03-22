@@ -1,6 +1,6 @@
 import RadioButton from './RadioButton';
 
-export default {
+const meta = {
   title: 'Components/RadioButton',
   component: RadioButton,
   argTypes: {
@@ -10,6 +10,8 @@ export default {
     disabled: { control: 'boolean' },
   },
 };
+
+export default meta;
 
 export const Default = {
   args: {

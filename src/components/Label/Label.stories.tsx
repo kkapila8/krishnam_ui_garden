@@ -1,6 +1,6 @@
 import Label from './Label';
 
-export default {
+const meta = {
   title: 'Components/Label',
   component: Label,
   argTypes: {
@@ -9,6 +9,8 @@ export default {
     disabled: { control: 'boolean' },
   },
 };
+
+export default meta;
 
 export const Default = {
   args: {
