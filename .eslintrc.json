@@ -4,11 +4,7 @@
     "es2021": true,
     "jest": true
   },
-  "extends": [
-    "react-app",
-    "react-app/jest",
-    "plugin:storybook/recommended"
-  ],
+  "extends": ["react-app", "react-app/jest", "plugin:storybook/recommended"],
   "rules": {
     "no-unused-vars": "warn",
     "no-console": "warn"
