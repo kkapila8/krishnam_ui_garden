@@ -5,9 +5,9 @@
 This project is a React-based UI Component Library built with Storybook.  
 It includes **code quality checks** with Husky pre-commit hooks and GitHub Actions CI/CD workflow.
 
-- **Working directory (Docker):** `krishnam_ui_garden_build_checks`  
-- **Docker container name:** `krishnam_coding_assignment13`  
-- **Storybook hosted on:** http://localhost:8018  
+- **Working directory (Docker):** `krishnam_ui_garden_build_checks`
+- **Docker container name:** `krishnam_coding_assignment13`
+- **Storybook hosted on:** http://localhost:8018
 
 This setup ensures that all code submitted meets formatting, linting, and testing standards.
 
@@ -15,9 +15,9 @@ This setup ensures that all code submitted meets formatting, linting, and testin
 
 ## Prerequisites
 
-- Node.js 22.x  
-- npm  
-- Docker  
+- Node.js 22.x
+- npm
+- Docker
 
 ---
 
@@ -28,3 +28,4 @@ This setup ensures that all code submitted meets formatting, linting, and testin
 ```bash
 git clone <your_github_repo_link>
 cd krishnam_ui_garden_build_checks
+```
