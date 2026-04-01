@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { CardProps } from './Card.types';
 
+const a=1
 const StyledCard = styled.div<{ backgroundColor?: string; disabled?: boolean }>`
   border: 1px solid #ccc;
   border-radius: 8px;
