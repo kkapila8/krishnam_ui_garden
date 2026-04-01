@@ -1,122 +1,30 @@
-# UI Component Library - Assignment 12
+# Krishnam UI Component Library - Assignment 13
 
-## 📌 Overview
+## Project Overview
 
-This project is a React-based UI Component Library built using Storybook.  
-It demonstrates reusable UI components, testing, and Docker deployment.
+This project is a React-based UI Component Library built with Storybook.  
+It includes **code quality checks** with Husky pre-commit hooks and GitHub Actions CI/CD workflow.
 
----
+- **Working directory (Docker):** `krishnam_ui_garden_build_checks`  
+- **Docker container name:** `krishnam_coding_assignment13`  
+- **Storybook hosted on:** http://localhost:8018  
 
-## 🚀 Technologies Used
-
-- React
-- TypeScript
-- Storybook
-- Styled-Components
-- Jest & Testing Library
-- Docker
-- Nginx
+This setup ensures that all code submitted meets formatting, linting, and testing standards.
 
 ---
 
-## 🧩 Components Included
+## Prerequisites
 
-- Button
-- Label
-- Text
-- Card
-- Dropdown
-- RadioButton
-- Img
+- Node.js 22.x  
+- npm  
+- Docker  
 
 ---
 
-## 🎨 Features
+## Setup Instructions
 
-- All components are reusable and responsive
-- Styled using styled-components
-- Each component has:
-  - Default state
-  - Disabled state (greyed out + not-allowed cursor)
-- Storybook controls for dynamic props
-- Unit testing for each component
+### 1. Clone the Repository
 
----
-
-## 🧪 Running Locally
-
-### Install dependencies
-
-npm install
-
-### Run React App
-
-npm start
-
-### Run Storybook
-
-npm run storybook
-
-👉 Open in browser:  
-http://localhost:6006
-
----
-
-## 🐳 Running with Docker
-
-### Build Docker Image
-
-docker build -t krishnam_ui_garden .
-
-### Run Container
-
-docker run -p 8083:80 krishnam_ui_garden
-
-👉 Open in browser:  
-http://localhost:8083
-
----
-
-## 📂 Project Structure
-
-src/
-└── components/
-└── ComponentName/
-├── Component.tsx
-├── Component.types.tsx
-├── Component.stories.tsx
-├── Component.test.tsx
-└── index.ts
-
----
-
-## 🎯 Learning Outcomes Achieved
-
-- Created reusable UI components
-- Implemented Storybook for visualization
-- Added unit tests for validation
-- Used Docker for production deployment
-- Optimized build process
-
----
-
-## 👨‍💻 Author
-
-Krishnam Kapila
-
-## git
-
-https://github.com/kkapila8/krishnam_ui_garden.git
-
-## 4. Storybook works locally
-
-Run:
-npm run storybook
-http://localhost:6006
-
-## 5. Docker works (MOST IMPORTANT)
-
-Run:
-docker run -p 8083:80 krishnam_ui_garden
-
-http://localhost:8083
+```bash
+git clone <your_github_repo_link>
+cd krishnam_ui_garden_build_checks
