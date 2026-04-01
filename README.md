@@ -10,13 +10,13 @@ The application is containerized using Docker and runs on localhost:8018.
 
 ## Features
 
-* Reusable UI components (Button, Card, Dropdown, etc.)
-* Storybook for component visualization
-* ESLint for code quality checks
-* Prettier for code formatting
-* Husky for pre-commit hooks
-* GitHub Actions for CI/CD pipeline
-* Docker for containerized deployment
+- Reusable UI components (Button, Card, Dropdown, etc.)
+- Storybook for component visualization
+- ESLint for code quality checks
+- Prettier for code formatting
+- Husky for pre-commit hooks
+- GitHub Actions for CI/CD pipeline
+- Docker for containerized deployment
 
 ---
 
@@ -87,9 +87,9 @@ Husky is used to run checks before committing code.
 
 Pre-commit checks include:
 
-* ESLint
-* Prettier
-* Tests
+- ESLint
+- Prettier
+- Tests
 
 If any check fails, the commit is blocked.
 
@@ -151,10 +151,10 @@ npm test
 
 This project demonstrates:
 
-* Local code quality enforcement using Husky
-* Code validation using ESLint and Prettier
-* Automated checks using GitHub Actions
-* Deployment using Docker
+- Local code quality enforcement using Husky
+- Code validation using ESLint and Prettier
+- Automated checks using GitHub Actions
+- Deployment using Docker
 
 ---
 
@@ -163,50 +163,67 @@ This project demonstrates:
 Krishnam Kapila
 
 ## 1 break any code
+
 const a=1
 
-## 2: 
+## 2:
+
 git add .
 git commit -m "break code"
 
 ## 3:
+
 git commit -m "force commit" --no-verify
 git push
+
 ## Go to GitHub → Actions
+
 Expected: Build FAILS
 
 ## 3: FIX CODE
+
 Run: npx prettier --write .
 npm run lint
 npm test
 
 ## 4: Commit again
+
 git add .
 git commit -m "fix code"
 git push
+
 ## GitHub Actions Expected: Build PASSES
 
 ## FOR ESCLINT
 
 ## Step 1: check the rules of the eslint
+
 ## Step 2: Break code intentionally
+
 Add this in any file:
 const a = 10;
+
 ## Step 3: Try to commit
+
 git add .
 git commit -m "eslint error demo"
+
 ## Expected result: Commit FAILS Husky blocks it
 
 ## Step 4: Show GitHub failure
+
 git commit -m "force commit" --no-verify
 git push
 
 ## Step 5: Fix it
+
 Remove the error: remove unused variable or console.log
 
 ## Then:
+
 npm run lint
 git add .
 git commit -m "fix eslint"
 git push
+
 ## Result: Build passes
